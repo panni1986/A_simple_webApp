@@ -6,8 +6,7 @@ app =   Flask(__name__)
 def ReturnJSON():
     if(request.method == 'GET'):
         data = {
-            "Modules" : 15,
-            "Subject" : "Data Structures and Algorithms",
+                 "MY favorite Tree" : "Mango",
         }
   
         return jsonify(data)
