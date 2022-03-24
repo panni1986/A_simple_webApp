@@ -2,7 +2,7 @@ from flask import Flask,jsonify,request
   
 app =   Flask(__name__)
   
-@app.route('/returnjson', methods = ['GET'])
+@app.route('/tree', methods = ['GET'])
 def ReturnJSON():
     if(request.method == 'GET'):
         data = {
