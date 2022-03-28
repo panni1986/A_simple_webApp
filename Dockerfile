@@ -31,4 +31,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8501
 
-CMD WebApp run returnjson.py
+CMD python3 returnjson.py 
