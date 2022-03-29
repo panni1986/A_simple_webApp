@@ -17,3 +17,5 @@ spec:
         image: panni1986/simpleapp:0.1
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: impullsecret 
